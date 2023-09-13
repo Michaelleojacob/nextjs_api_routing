@@ -5,7 +5,7 @@ export default function Home() {
   const [data, setData] = useState(null);
 
   const rawFetch = async () => {
-    const rawData = await fetch("http://localhost:3000/testNoApi", {
+    const rawData = await fetch("http://localhost:3000/api/test", {
       method: "GET",
       mode: "cors",
       cache: "no-cache",
